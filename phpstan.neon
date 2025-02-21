@@ -1,0 +1,12 @@
+
+includes:
+    - phar://phpstan.phar/conf/bleedingEdge.neon
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+
+parameters:
+
+    paths:
+        - src/
+        - index.php
+
+    level: max
